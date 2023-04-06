@@ -1,0 +1,128 @@
+@media screen and (max-width: 768px) {
+    .logo > img{
+        max-width: 220px;
+    }
+    .img_title > h1{
+        text-transform: uppercase;
+        font-family: 'Jost';
+        font-size: 17px !important;
+        color: rgb(0, 0, 0);
+    }
+    .img_date > span{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .img_date{
+        margin-bottom: 5px;
+    }
+    .title_2 > p{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .date_meet .h1{
+        font-size: 65px;
+        font-family: 'Tangerine';
+        font-weight: bold;
+        color:#D4B0A5;
+    }
+    .date_meet > p{
+        font-size: 15px;
+    }
+    .img_shap{
+        width: 60%;
+    }
+    .couple_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .story_img img{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        padding: 0 20px 25px 20px;
+    }
+    .story_img2 img{
+        padding-top: 0 !important;
+    } */
+    
+}
+@media screen and (max-width:990px) {
+    .wpo_story_item{
+        display: block;
+        padding-top: 105px !important;
+    }
+    .wpo_story_img_wrap{
+        width: 100% !important;
+    }
+    .wpo_img_shape > img {
+        max-width: 90%;
+    }
+    .wpo_story_img_wrap .wpo_story_img {
+        width: 360px !important;
+        height: 360px !important;
+    }
+}
+@media screen and (max-width:720px) {
+    .wpo_story_item{
+        display: block;
+        padding-top: 105px !important;
+    }
+    .wpo_story_img_wrap{
+        width: 100% !important;
+    }
+    .wpo_img_shape > img {
+        max-width: 100%;
+    }
+    .wpo_story_img_wrap .wpo_story_img {
+        width: 360px !important;
+        height: 360px !important;
+    }
+}
+@media screen and (max-width:445px) {
+    .wpo_story_item{
+        display: block;
+        padding-top: 105px !important;
+    }
+    .wpo_story_img_wrap{
+        width: 100% !important;
+    }
+    .wpo_img_shape > img {
+        max-width: 100% !important;
+    }
+    .wpo_story_img_wrap .wpo_story_img {
+        width: 260px !important;
+        height: 260px !important;
+    }
+    .our_title > .h1{
+        font-size: 54px !important;
+    }   
+    .our_title > h2{
+        font-size: 22px !important;
+    }
+    .story_img img{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        padding: 0 20px 25px 20px;
+    }
+    .story_img2 img{
+        padding-top: 0 !important;
+    }
+    .our_title1 > .h1{
+        font-size: 41px !important;
+    }   
+    .favicon_icon > img{
+        width: 45%;
+    }
+    .story_first > h4{
+        text-align: center !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .img_title > p{
+        font-size: 12px;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+}
